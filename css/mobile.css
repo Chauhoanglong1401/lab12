@@ -1,0 +1,38 @@
+@media (max-width: 768px) {
+    #nav-bar .container-fluid .navbar-nav {
+        margin: initial !important;
+        flex: fit-content;
+        text-align: left;
+    }
+    #nav-bar .container-fluid a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    #nav-bar .container-fluid .nav-item {
+        border: 0;
+    }
+    #certificate .cer-box-body .cer-container > .row > div[class^="col-"]:nth-child(2) .row > div[class^="col-"]:first-child {
+        border-left: none;
+        padding-left: 10px;
+    }
+    #project .container .proj-container .proj-items .proj-body  {
+        display: block;
+    }
+    #project .container .proj-container .proj-items .proj-body .proj-body2 > div {
+        padding-top: 12px;
+    }
+    #certificate .cer-box-body .cer-container > .row > div[class^="col-"]:first-child {
+        border-right: 0;
+        /*padding-left: 10px;*/
+    }
+    #certificate .cer-box-body .cer-container .row > div:nth-child(2) {
+        padding: initial;
+    }
+    #certificate .container .cer-box-body .row .col-12 {
+        border-top: 0;
+        margin-top: 35px;
+    }
+    #certificate .container .cer-box-body .row .col-12 .card .row.g-0 {
+        border-left: 0 !important;
+    }
+}
